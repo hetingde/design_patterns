@@ -1,4 +1,4 @@
 <?xml version = "1.0"?>
 <config>
-	<className>FADepartment</className>
+	<className>com.zzk.visitorpattern.FADepartment</className>
 </config>

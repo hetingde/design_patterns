@@ -1,6 +1,9 @@
 package com.zzk.flyweightpattern;
 
-import com.sun.org.apache.xalan.internal.xsltc.runtime.Hashtable;
+//import com.sun.org.apache.xalan.internal.xsltc.runtime.Hashtable;
+
+import java.util.Hashtable;
+
 //围棋棋子工厂类：享元工厂类，使用单例模式进行设计
 public class IgoChessmanFactory {
 	

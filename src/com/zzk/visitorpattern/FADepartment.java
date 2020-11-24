@@ -3,6 +3,7 @@ package com.zzk.visitorpattern;
 public class FADepartment extends Department {
 
 	//实现财务部对全职员工的访问
+	@Override
 	public void visit(FulltimeEmployee employee) {
 		int workTime = employee.getWorkTime();
 		double weekWage = employee.getWeeklyWage();
@@ -19,6 +20,7 @@ public class FADepartment extends Department {
 	}
 
 	//实现财务部对兼职员工的访问
+	@Override
 	public void visit(ParttimeEmployee employee) {
 		int weeTime = employee.getWorkTime();
 		double hourWage = employee.getHourWage();

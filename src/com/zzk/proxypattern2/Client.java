@@ -3,7 +3,7 @@ package com.zzk.proxypattern2;
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Proxy;
 
-import sun.org.mozilla.javascript.internal.GeneratedClassLoader;
+//import sun.org.mozilla.javascript.internal.GeneratedClassLoader;
 
 public class Client {
 	public static void main(String[] args) {
